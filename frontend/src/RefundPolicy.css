@@ -1,0 +1,89 @@
+/* General Styling */
+.refund-container {
+    
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Headings */
+  .refund-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .refund-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #7d0661;
+  }
+  
+  .refund-date {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* Text */
+  .refund-text {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Sections */
+  .refund-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #7d0661;
+    border-radius: 5px;
+  }
+  
+  .refund-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Lists */
+  .refund-section ul, .refund-section ol {
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .refund-section li {
+    margin-bottom: 8px;
+  }
+  
+  /* Links */
+  .refund-link {
+    color: #7d0661;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .refund-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Disclaimer */
+  .refund-disclaimer {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+  }
+  

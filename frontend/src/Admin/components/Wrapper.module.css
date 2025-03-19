@@ -1,0 +1,70 @@
+.main {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+}
+.aside {
+  flex-basis: 25%;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  /* margin: 10px; */
+}
+.article {
+  flex-basis: 85%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.hamburger_icon {
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+   .aside {
+      display: none;
+   }
+
+   .article {
+    width: 100%;
+   }
+
+   .hamburger_icon {
+    display: block;
+   }
+}
+
+.overflow_wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+
+
+
+
+
+/* Side bar in mobile */
+
+
+.float_side_nav {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+
+}
+
+.close_ {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

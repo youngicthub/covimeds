@@ -1,0 +1,104 @@
+/* signup.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f4f4f4;
+  margin-bottom: 30px;
+}
+
+.signContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.23)0 4px 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.signForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signLogo img {
+  width: 120px;
+}
+
+.signLogo h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.termsCheckbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: -25%;
+
+}
+
+.termsCheckbox1 {
+  margin-left: 10px;
+}
+
+.termsCheckbox label {
+  font-size: 0.9rem;
+  color: #555;
+  /* margin-left:-10%; */
+
+}
+
+.newser {
+  margin-top: -7%;
+}
+
+.newser p {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.newser .signP {
+  color: #7d0661;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sutmitBTN {
+  background-color: #7d0661;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.sutmitBTN:hover {
+  background-color: #0056b3;
+}

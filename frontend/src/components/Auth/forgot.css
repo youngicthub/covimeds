@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    /* display: flex; */
+    padding: 20px 30px;
+    margin: 20px 10px;
+    /* margin-right: auto; */
+    margin-left: 35%;
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 5px 15px;
+}
+
+.forgotPWD h2 {
+    text-align: center;
+}
+
+.forgotPWD1 form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+section .forgotPWD1 form input {
+    width: 420px;
+    margin-left: 3%;
+}
+
+section .forgotPWD1 form button {
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px 8px;
+    margin-left: 35%;
+    font-weight: 400;
+    cursor: pointer;
+    background: #7d0661;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+
+.backtoLogin {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.backtoLogin .link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #7d0661;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        /* display: flex; */
+        padding: 20px 30px;
+        margin: 10px 10px;
+        /* margin-right: auto; */
+        margin-left: 5%;
+        width: 400px;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.23) 0px 5px 15px;
+    }
+
+    section .forgotPWD1 form input {
+        width: 320px;
+        /* margin-left: 3%; */
+    }
+
+    section .forgotPWD1 form button {
+        width: 140px;
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 23%;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+}

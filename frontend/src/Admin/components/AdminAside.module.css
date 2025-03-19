@@ -1,0 +1,27 @@
+.product_list {
+   margin-bottom: 20px;
+}
+
+.product_list li {
+   list-style: none;
+   margin-left: 50px;
+   line-height: 2
+}
+
+
+.product_list  a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   display: flex;
+   align-items: center;
+}
+.product_list  a svg {
+   margin-right: 15px;
+}
+
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* min-height: 50%; */
+}

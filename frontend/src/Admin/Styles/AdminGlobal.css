@@ -1,0 +1,68 @@
+
+.admin-table,.admin-table td, .admin-table th  {
+   border: 1px solid black;
+   padding: 10px;
+   border-collapse: collapse;
+   text-align: left;
+}
+.admin-table{
+   width: 100%;
+   overflow: auto;
+}
+
+.admin-table-btn {
+   padding: 10px;
+   border: none;
+   outline: none;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+
+
+.admn_sub_header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.admn_sub_header button {
+   padding: 10px 20px;
+   background-color: cornflowerblue;
+   color: white;
+   border: none;
+   outline: none;
+}
+
+.admin-table-btn-edit {
+   padding: 10px 20px;
+   background-color: cornflowerblue;
+   color: white;
+   border: none;
+   outline: none;
+}
+
+
+
+.container_category_x {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.499);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.create_wrapper_category {
+   width: 400;
+   background-color: white;
+   padding: 20px;
+}
+
+.table-main-wrapper {
+   width: 100%;
+   overflow: auto;
+}

@@ -1,0 +1,63 @@
+/* Footer.css */
+.footer {
+  background-color: #7d0661;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Ensure the page content does not overlap the fixed footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 50px; /* Adjust based on footer height */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+
+    .footer {
+      position: fixed;
+      margin-top: auto; 
+    }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+}

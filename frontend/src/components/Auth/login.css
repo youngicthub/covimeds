@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.login {
+  background: #f1f1f1;
+}
+
+.loginContainer {
+  padding: 30px 40px;
+  width: 100%;
+  background-color: #f4f4f4;
+
+
+  text-align: center;
+}
+
+.loginContainer .loginForm {
+  display: flex;
+  background-color: #fff;
+  padding: 10px 10px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.32) 0px 3px 8px;
+}
+
+.loginContainer h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.loginContainer img {
+  width: 130px;
+  /* margin-left: 10%; */
+  /* margin-top: -5%; */
+}
+
+.loginContainer form {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.loginContainer form input {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+  border-bottom: 1px solid #000000;
+  background: none;
+}
+
+.forgotSign {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #7d0661;
+}
+
+.forgotSign .link {
+  flex-direction: row;
+  font-size: 14px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #7d0661;
+  font-weight: 800;
+}
+
+.p {
+  text-decoration: none;
+  color: #7d0661;
+  font-weight: 800;
+}
+
+#sutmitBTN {
+  outline: none;
+  border: none;
+  background: #000000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+  width: 90px;
+  /* margin-left:5%; */
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {}

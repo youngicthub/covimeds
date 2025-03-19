@@ -1,0 +1,66 @@
+/* orders.css */
+
+/* Apply general styling to the container */
+.orderdiv {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style the table header */
+h2 {
+  color: #333;
+  margin-bottom: 5px;
+  /* font-size: 10px; */
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* margin-top: 1px; */
+}
+
+/* Style table headers */
+th {
+  background: #f2f2f2;
+  border: 1px solid #dddddd;  
+  text-align: left;
+}
+
+/* Style table cells */
+td {
+  border: 1px solid #dddddd;
+  padding: 3px;
+  text-align: left;
+  font-size: 14px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+/* Responsive styling for mobile view */
+@media screen and (max-width: 768px) {
+
+  table {
+      width: 30%;
+      overflow-x: auto;
+  }
+
+
+  th:nth-child(2),
+  td:nth-child(2),
+  th:nth-child(3),
+  td:nth-child(3) {
+      display: none;
+  }
+
+  td {
+    border: 1px solid #dddddd;
+    padding: 3px;
+    text-align: left;
+    font-size: 10px;
+  }
+}

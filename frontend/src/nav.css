@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.free {
+  padding: 10px 30px;
+  display: flex;
+  width: 100%;
+  background: #7d0661;
+}
+
+.menu-icon {
+  visibility: hidden;
+}
+
+.free .icon {
+  color: #fff;
+  font-size: 32px;
+}
+
+.free p {
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.mainHeader {
+  padding: 20px 40px;
+  /* border-bottom: 1px solid #000000; */
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.mainHeader .container .logo img {
+  width: 150px;
+}
+
+.mainHeader .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainHeader .container .search {
+  margin-right: 30px;
+}
+
+.mainHeader .container .search input {
+  outline: none;
+  padding: 10px 30px;
+  width: 300px;
+  border: 3px solid #7d0661;
+  color: #2e2c2c;
+}
+
+.mainHeader .container .search button {
+  border: 3px solid #7d0661;
+  background: #7d0661;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.mainHeader .container .icon {
+  display: flex;
+  margin-right: 50px;
+}
+
+.mainHeader .container .icon .account {
+  display: flex;
+  margin-right: 30px;
+}
+
+.mainHeader .container .icon .account .userIcon {
+  margin-left: 10%;
+  text-decoration: none;
+  cursor: pointer;
+  color: #7d0661;
+  font-size: 30px;
+}
+
+.mainHeader .container .icon .account p {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+.mainHeader .container .icon .icon2 {
+  display: flex;
+}
+
+.mainHeader .container .icon .icon2 .link {
+  margin-right: 5px;
+  font-size: 30px;
+  color: #7d0661;
+}
+
+.header {
+  padding: 20px 30px;
+  width: 100%;
+  box-shadow: rgba(104, 1, 30, 0.35) 0px 5px 15px;
+}
+
+.header .containerHeader {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.header .containerHeader .nav ul {
+  display: flex;
+}
+
+.header .containerHeader .nav ul li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.header .containerHeader .nav ul li .linkNav {
+  text-decoration: none;
+  font-size: 18px;
+  color: #7d0661;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.header .containerHeader .nav ul li .linkNav:hover {
+  color: #7d0661;
+}
+
+.header .containerHeader .auth {
+  margin-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.header .containerHeader .auth button {
+  background: none;
+  margin-right: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.login-button {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .free {
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    background: #7d0661;
+    justify-content: space-between;
+  }
+
+  .icon-wrapper {
+    margin-left: -5%;
+    margin-top: -5%;
+  }
+
+
+}
+
+
+/* ======= Main Header Styling ======= */
+.mainHeader {
+  display: flex;
+  justify-content: center;
+  background: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* ======= Container Styling ======= */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* ======= Logo Styling ======= */
+.logo img {
+  height: 45px;
+}
+
+/* ======= Search Bar Styling ======= */
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 8px;
+  /* width: 100%; */
+  /* max-width: 370px; */
+  background: white;
+  display: none;
+  visibility: hidden;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  flex-grow: 1;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.search button {
+  background: #800060;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search button:hover {
+  background: #590046;
+}
+
+/* ======= Icon Section ======= */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* ======= User Account Styling ======= */
+.userIcon {
+  font-size: 20px;
+  color: #800060;
+  transition: 0.3s ease;
+}
+
+.userIcon:hover {
+  color: #590046;
+}
+
+/* ======= Cart Styling ======= */
+.icon2 {
+  position: relative;
+}
+
+.icon2 .link {
+  color: #800060;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+.icon2 .link:hover {
+  color: #590046;
+}
+
+/* ======= Cart Badge (Item Count) ======= */
+.setcart {
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 3px 7px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  font-weight: bold;
+}
+
+/* ======= Mobile Responsive Styles ======= */
+@media screen and (max-width: 768px) {
+  .mainHeader {
+    padding: 8px 0;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .userIcon{
+    padding:10px ;
+  }
+.search{
+  visibility: hidden;
+  display: none;
+}
+  .setcart {
+    font-size: 10px;
+    padding: 2px 6px;
+    top: -5px;
+    right: -6px;
+  }
+}
+
+
+
+
+.header {
+  padding: 10px 10px;
+  width: 100%;
+  box-shadow: rgba(104, 1, 30, 0.35) 0px 5px 15px;
+}
+
+.header .containerHeader {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.header .containerHeader .nav ul {
+  display: flex;
+}
+
+.header .containerHeader .nav ul li {
+  margin-right: 5px;
+  list-style: none;
+}
+
+.header .containerHeader .nav ul li .linkNav {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: #fff;
+  background: #7d0661;
+}
+
+.header .containerHeader .nav ul li .linkNav:hover {
+  color: #fff;
+}
+
+.login-button {
+  padding: 10px 24px;
+  background: #7d0661;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.icon-wrapper svg {
+  margin: 3px 10px;
+  /* color: red; */
+}

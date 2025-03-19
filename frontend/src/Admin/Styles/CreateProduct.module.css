@@ -1,0 +1,14 @@
+.wrapper_input input, .wrapper_input textarea, .wrapper_input select {
+   padding: 10px;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.create_btn button {
+   padding: 10px 20px;
+   background-color: cornflowerblue;
+   border: none;
+   outline: none;   
+   font-weight: bold;
+   color: white !important;
+}
