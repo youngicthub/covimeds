@@ -21,8 +21,8 @@ const Contacts = () => {
       <div className="contact-info">
         <h1>Contact Us</h1>
         <p>Email, call, or complete the form to learn how we can help.</p>
-        <p><strong>Email:</strong> info@snappy.io</p>
-        <p><strong>Phone:</strong> 321-221-231</p>
+        <p><strong>Email:</strong> info@covimeds.org</p>
+        <p><strong>Phone:</strong> +1 (740) 204-1569</p>
         <a href="#">Customer Support</a>
 
         <div className="info-sections">
